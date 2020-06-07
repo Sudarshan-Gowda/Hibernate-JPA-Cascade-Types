@@ -5,28 +5,23 @@ This Project covers the simple basic example for understading CascadeTypes avali
 ## Explanation:
 Basically while updating(doing anyoperation) master entity, to make associated entity also to get reflected, We will use CascadeType.
 
-Detail Explanation: Lets consider we have two entity, One is Employee(Parent) and other one is Account (Associated), If we do any operation to 
+<b>Detail Explanation:</b> Lets consider we have two entity, One is Employee(Parent) and other one is Account (Associated), If we do any operation to 
 Parent entity, that should also to be reflected in associated entity means we should configure cascade type.
 
 For Ex: While deleting Employee details and we not configured Cascade type with ALL or REMOVE, Container will not allow to remove the object since
 it hold relation with associated entity. By Configuring cascade type we can remove both the entity.
 
-List of Cascade-Types avaliable are:
+### List of Cascade-Types avaliable are:
 
-CascadeType.PERSIST : cascade type presist means that save() or persist() operations cascade to related entities.
-CascadeType.MERGE : cascade type merge means that related entities are merged when the owning entity is merged.
-CascadeType.REFRESH : cascade type refresh does the same thing for the refresh() operation.
-CascadeType.REMOVE : cascade type remove removes all related entities association with this setting when the owning entity is deleted.
-CascadeType.DETACH : cascade type detach detaches all related entities if a “manual detach” occurs.
-CascadeType.ALL : cascade type all is shorthand for all of the above cascade operations.
+`CascadeType.PERSIST` : cascade type presist means that save() or persist() operations cascade to related entities.
+`CascadeType.MERGE` : cascade type merge means that related entities are merged when the owning entity is merged.
+`CascadeType.REFRESH` : cascade type refresh does the same thing for the refresh() operation.
+`CascadeType.REMOVE` : cascade type remove removes all related entities association with this setting when the owning entity is deleted.
+`CascadeType.DETACH` : cascade type detach detaches all related entities if a “manual detach” occurs.
+`CascadeType.ALL` : cascade type all is shorthand for all of the above cascade operations.
 
 The orphan removal will do the same job as like CascadeType in JPA. We just need to configure enable or disable.
 
-
-#### When To use CascadeType
-```
-	
-```
 
 ## Running Application locally
 
@@ -79,7 +74,7 @@ File -> Import -> Maven -> Existing Maven project
 <img src="https://github.com/Sudarshan-Gowda/Hibernate-JPA-Cascade-Types/blob/master/docs/Picture2.png" width="100%"/>
 
 3. Result for both the above steps (1 & 2).
-
+<img src="https://github.com/Sudarshan-Gowda/Hibernate-JPA-Cascade-Types/blob/master/docs/Picture3.png" width="100%"/>
  
 ### For More Details Use the Reference Links
 1. https://howtodoinjava.com/hibernate/hibernate-jpa-cascade-types/
