@@ -13,12 +13,12 @@ it hold relation with associated entity. By Configuring cascade type we can remo
 
 ### List of Cascade-Types avaliable are:
 
-`CascadeType.PERSIST` : cascade type presist means that save() or persist() operations cascade to related entities.
-`CascadeType.MERGE` : cascade type merge means that related entities are merged when the owning entity is merged.
-`CascadeType.REFRESH` : cascade type refresh does the same thing for the refresh() operation.
-`CascadeType.REMOVE` : cascade type remove removes all related entities association with this setting when the owning entity is deleted.
-`CascadeType.DETACH` : cascade type detach detaches all related entities if a “manual detach” occurs.
-`CascadeType.ALL` : cascade type all is shorthand for all of the above cascade operations.
+`CascadeType.PERSIST` : cascade type presist means that save() or persist() operations cascade to related entities.<br>
+`CascadeType.MERGE` : cascade type merge means that related entities are merged when the owning entity is merged.<br>
+`CascadeType.REFRESH` : cascade type refresh does the same thing for the refresh() operation.<br>
+`CascadeType.REMOVE` : cascade type remove removes all related entities association with this setting when the owning entity is deleted.<br>
+`CascadeType.DETACH` : cascade type detach detaches all related entities if a “manual detach” occurs.<br>
+`CascadeType.ALL` : cascade type all is shorthand for all of the above cascade operations.<br>
 
 The orphan removal will do the same job as like CascadeType in JPA. We just need to configure enable or disable.
 
