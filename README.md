@@ -72,9 +72,11 @@ File -> Import -> Maven -> Existing Maven project
    
 ## User reference or guide.
 
-1. Result For First class Configuration [click here](https://github.com/Sudarshan-Gowda/Hibernate-JPA-Cascade-Types/blob/master/docs/Picture1.png)
+1. Result For First class Configuration 
+<img src="https://github.com/Sudarshan-Gowda/Hibernate-JPA-Cascade-Types/blob/master/docs/Picture1.png" width="100%"/>
 
-2. Result for Second class Configuration[click here](https://github.com/Sudarshan-Gowda/Hibernate-JPA-Cascade-Types/blob/master/docs/Picture2.png)
+2. Result for Second class Configuration
+<img src="https://github.com/Sudarshan-Gowda/Hibernate-JPA-Cascade-Types/blob/master/docs/Picture2.png" width="100%"/>
 
 3. Result for both the above steps (1 & 2).
 
